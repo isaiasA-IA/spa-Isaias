@@ -45,6 +45,11 @@ function render() {
         <!-- botón aquí -->
       `;
       break;
+    case "modificacion":
+      content.innerHTML=`
+        <link src=https://youtu.be/dQw4w9WgXcQ?si=W_1xksc5-Fc5gf19 />
+      `;
+      break;
     default:
       content.innerHTML = `<p>Ruta no encontrada.</p>`;
   }
